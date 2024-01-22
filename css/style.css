@@ -359,8 +359,8 @@ p:not(:empty) {
   transform: translateY(-50%);
 }
 #preloader #status .d-loader {
-  width: 90px;
-  height: 90px;
+  width: 200px;
+  height: 200px;
   position: relative;
   margin: 100px auto;
 }
