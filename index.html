@@ -916,16 +916,18 @@
     <script src="./i18n/jquery.i18n.emitter.js"></script>
     <script src="./i18n/jquery.i18n.emitter.bidi.js"></script>
     <script>
-      console.log("here");
-      $.i18n().locale = "en";
       $.i18n()
         .load({
-          en: {
-            enter: "Enter",
-          },
+          en: "./i18n/languages/en.json",
+          uz: "./i18n/languages/uz.json",
+          ru: "./i18n/languages/ru.json",
         })
         .done(function () {
           console.log("done!");
+          $.i18n({
+            locale: "en",
+          });
+          console.log($.i18n("enter"));
         });
     </script>
     <script>

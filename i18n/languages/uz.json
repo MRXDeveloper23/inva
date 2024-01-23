@@ -1,0 +1,12 @@
+{
+  "@metadata": {
+    "authors": [""],
+    "last-updated": "2024-24-01",
+    "locale": "uz",
+    "other-metadata": "uzbek"
+  },
+  "appname-title": "Javascript Localization via jQuery.i18n",
+  "appname-sub-title": "A jQuery based Javascript internationalization library.",
+  "appname-introduction": "Introduction",
+  "enter": "Kirish"
+}
