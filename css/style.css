@@ -863,7 +863,7 @@ textarea.form-control {
   }
 }
 .logo-container {
-  padding: 25px 0px 25px;
+  padding: 15px 0px 25px;
 }
 .menu-fixed .logo-container {
   padding: 15px 0px 15px;
@@ -6374,9 +6374,9 @@ span.text {
     padding: 0px !important;
     margin: 0px !important;
   }
-  .menu-primary {
+  /* .menu-primary {
     height: 88px;
-  }
+  } */
   .menu-primary .sub-menu {
     top: 86%;
   }
